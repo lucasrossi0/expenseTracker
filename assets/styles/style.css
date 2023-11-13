@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1,
+p {
+  margin: 16px 0 16px 0;
+}
+
+p {
+  color: green;
+  font-weight: 900;
+}
+
+.inputs {
+  display: block;
+}
+
+#nameInput {
+  width: 100%;
+}
+
+#dateInput,
+#amountInput {
+  width: 50%;
+  flex-direction: row;
+  display: flex;
+}
+
+table,
+th,
+tr {
+  border: 2px solid black;
+}
